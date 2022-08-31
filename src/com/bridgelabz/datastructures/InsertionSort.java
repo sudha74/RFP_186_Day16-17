@@ -26,6 +26,7 @@ public class InsertionSort {
         int[] arr = {12, 11, 13, 5, 6};
         InsertionSort insertionSort = new InsertionSort();
         insertionSort.sort(arr);
+        System.out.println("insertion sort");
         printArray(arr);
 
     }
